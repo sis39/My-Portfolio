@@ -1,7 +1,7 @@
 import Project1 from "../assets/RestaurantWebsite.jpg";
 import Project2 from "../assets/contactTracingImageFinal.jpg";
 import Project3 from "../assets/portfolioImage.jpg";
-export const HERO_CONTENT = `I am a passionate front end developer and a salesforce devloper with a knack for crafting robust and scalable web applications. With 1.5 year of hands-on experience, I have honed my skills in front-end technologies like React Js and also honed my skills in  Salesforce Apex, LWC, Aura, Flows, data structures, algorithms, Java, Spring Boot, HTML & CSS, and JavaScript. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate front end developer and a salesforce developer with a knack for crafting robust and scalable web applications. With 1.5 year of hands-on experience, I have honed my skills in front-end technologies like React Js and also honed my skills in  Salesforce Apex, LWC, Aura, Flows, data structures, algorithms, Java, Spring Boot, HTML & CSS, and JavaScript. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile front end developer and Salesforce Developer with a passion for creating efficient and user-friendly web applications. With 1.5 years of professional experience, I have worked with a variety of technologies, including React, MySQL, Salesforce Apex, LWC, Aura, Flows, data structures, algorithms, Java, Spring Boot, HTML & CSS, and JavaScript. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
@@ -42,7 +42,7 @@ export const PROJECTS = [
     Image: Project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["HTML", "React", "Framer Motion" ,"TailWind.css"],
   },
 ];
 

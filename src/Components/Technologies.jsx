@@ -3,6 +3,7 @@ import { FaSalesforce } from "react-icons/fa";
 import { FaDatabase } from "react-icons/fa";
 import { FaJava } from "react-icons/fa";
 import { TbBrandJavascript } from "react-icons/tb";
+import { SiFramer } from "react-icons/si";
 import { motion } from "framer-motion";
 const iconVariant = (duration)=>({
     initial:{y:-10},
@@ -63,6 +64,13 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4">
               <TbBrandJavascript className="text-7xl text-yellow-400"/>
+          </motion.div>
+          <motion.div
+          variants={iconVariant(2.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4 bg-slate-400">
+              <SiFramer  className="text-7xl text-black  "/>
           </motion.div>
       </motion.div>
     </div>
